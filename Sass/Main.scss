@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020101;
+}
+
+$abril: "Abril Fatface", cursive;
+
+header {
+  padding: 2rem 0;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.2rem;
+
+    .logo-image {
+      #img-humanity {
+        width: 8.35rem;
+        height: 1.875rem;
+      }
+      #img-path {
+        position: relative;
+        height: 0.7rem;
+        width: 1rem;
+        left: 7.125rem;
+        bottom: 1.438rem;
+      }
+    }
+
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        width: 6.813rem;
+        height: 1.688rem;
+        a {
+          font-family: "Avenir";
+          font-style: normal;
+          font-weight: 500;
+          line-height: 1.688rem;
+          width: 7.438rem;
+          height: 1.688rem;
+          color: #77c377;
+          text-decoration: none;
+        }
+      }
+    }
+
+    button {
+      width: 7rem;
+      height: 2.813rem;
+      border-radius: 2rem;
+      background-color: #c1a130;
+      color: #f8ebd7;
+      line-height: 1.708rem;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
+}
+
+main {
+  .split {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .left-content {
+    width: 50%;
+    padding: 0 8rem;
+
+    img {
+      width: 9rem;
+      height: 10.25rem;
+      position: relative;
+      top: 10.25rem;
+      left: 12.063rem;
+    }
+
+    #h1 {
+      color: #f8ebd7;
+      width: 14.75rem;
+      height: 11.75rem;
+      font-size: 4.4rem;
+      line-height: 5.902rem;
+      font-weight: 400;
+      font-style: normal;
+      font-family: $abril;
+    }
+    #h2 {
+      color: #78c376;
+      width: 31.938rem;
+      height: 7.563rem;
+      font-size: 6.188rem;
+      font-weight: 400;
+      font-style: normal;
+      font-family: $abril;
+    }
+
+    p {
+      color: #ffffff;
+      font-family: "Avenir";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1.375rem;
+      line-height: 2.188rem;
+      padding: 0 8rem 0 0;
+    }
+    button {
+      background-color: #f8ebd7;
+      font-family: "Avenir";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.688rem;
+
+      color: #000000;
+      width: 14.375rem;
+      height: 3.75rem;
+      border-radius: 2rem;
+      position: relative;
+      top: 2rem;
+    }
+  }
+
+  .right-img {
+    width: 50%;
+
+    .arrow-img {
+      display: block;
+      position: relative;
+      top: 13rem;
+      right: 3rem;
+    }
+    .lg-img {
+      display: block;
+      width: 100%;
+      padding: 0 8rem 0 0;
+    }
+
+    .scroll-down {
+      color: #f8ebd7;
+      position: relative;
+    }
+  }
+}
